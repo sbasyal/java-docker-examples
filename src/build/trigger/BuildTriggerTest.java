@@ -58,6 +58,6 @@ public class BuildTriggerTest {
 
         // Printing the result. It will print "OK" on success.
         System.out.println(response.toString());
-        System.out.println("Finished triggering the build. Next build cannot be triggered before 5 minutes is passed!");
+        System.out.println("Finished triggering the build. Next build can only be triggered after 5 minutes!");
     }
 }
